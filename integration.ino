@@ -133,7 +133,7 @@ void loop() {
   measureDistance();
   /*Mesure de l'accélération en Y*/
   measureAccelerometer();
-   /*Toutes les 500ms, envoi d'informations vers la Raspberry*/
+   /*Toutes les 500ms, envoi d'informations vers NIVIDIA*/
   if (millis() - timeInit >= 500)
   {
     /*Envoi distance (détection capteur ultrason)*/
